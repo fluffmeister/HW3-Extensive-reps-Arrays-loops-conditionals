@@ -13,8 +13,18 @@
 
 
 //Write code that logs "Love me, pet me! HSSSSSS!" 20 times.
-for(i=0;i<20;i++){
-     console.log(i);
- }
+// for(i=0;i<20;i++){
+//      console.log("Love me, pet me ! HSSSSSSS!");
+//  }
 
-//For every even number in your loop, log "...human...why you taking pictures of me?...", "...the catnip made me do it...", or "...why does the red dot always get away..." at random.
+//For every even number in your loop, log 
+//"...human...why you taking pictures of me?...",
+// "...the catnip made me do it...", 
+//or "...why does the red dot always get away..." 
+//at random.
+
+for(i=0;i<20;i++){
+    Math.random(3)
+
+    console.log();
+}
