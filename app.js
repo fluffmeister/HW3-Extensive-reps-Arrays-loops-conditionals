@@ -63,20 +63,21 @@
 // }
 
 
-// const kenny = ["Kenny", 1000, "Austin"];
+//  const kenny = ["Kenny", 1000, "Austin"];
 // const jimHaff = ["Jim H", 16, "All cities"];
 // const reuben = ["Reuben", 22, "Durham"];
-// const jimClark = ["Jim C", 186, "LA"];
+//  const jimClark = ["Jim C", 186, "LA"];
 // const ryan = ["Ryan", 65, "Denver"];
 
 //1
-// kenny[0] = ["Gameboy"];
-// console.log(kenny[0]);
+// kenny.splice(0,1,"Gameboy");
+//  console.log(kenny[0]);
 //2
-// var JimAge= jimClark[1];
-// var NewJimAge= JimAge+1;
-// jimClark.push[NewJimAge];
-//3
+//  var JimAge= jimClark[1];
+//  var NewJimAge= JimAge+1;
+//  jimClark.splice(1,1,NewJimAge);
+// console.log(jimClark)
+ //3
 // ryan[0,2]= ["Batman","Gotham"];
 // console.log(ryan[0,2]);
 //4
@@ -94,4 +95,14 @@
 
 //Ninja Turtles
 
-const 
+// let ninja = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
+// function changeUp(){
+//     for(i=0;i<ninja.length;i++){
+//     ninja.toUpperCase(ninja[i])
+//     console.log(ninja)
+//     }
+// }
+// console.log(changeUp(ninja))
+
+//
+
