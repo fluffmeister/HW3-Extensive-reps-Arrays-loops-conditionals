@@ -144,5 +144,17 @@ const thomsCloset = [
 // thomsCloset[2].push(kristynsShoe);
 // console.log(thomsCloset[2]);
 
+//Laundry Time
+// for(i=0;i<kristynsCloset.length;i++){
+//     console.log("WHIRR: Now washing "+ kristynsCloset[i]) 
+// }
 
+// for(i=0;i<thomsCloset.length;i++){
+// console.log(thomsCloset[i])    
+// let inner =thomsCloset[i].length;
+//     for(j=0; j<inner.length; j++){
+//         console.log( '['+ i+ ']' + j )
+//     console.log(thomsCloset[i][j])
+//     }
+// }
 
