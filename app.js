@@ -22,13 +22,15 @@
 // "...the catnip made me do it...", 
 //or "...why does the red dot always get away..." 
 //at random.
-// let cat=["...human...why you taking pictures of me?...", "...the catnip made me do it...", "...why does the red dot always get away..."];
+let cat=["...human...why you taking pictures of me?...", "...the catnip made me do it...", "...why does the red dot always get away..."];
+function meow(){
+    return Math.floor(Math.random() *Math.floor(2));
+}
+ for(i=0;i<20;i++){
+   if(i %2==0)
  
-// for(i=0;i<20;i++){
-//     if(i %2==0)
-//     Math.random(2);
-//     console.log(cat.Math();
-//  }
+     console.log(meow);
+  }
 
 ////Write a javascript application that logs all numbers from 1 - 100.
 
@@ -95,14 +97,14 @@
 
 //Ninja Turtles
 
-// let ninja = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
-// function changeUp(){
-//     for(i=0;i<ninja.length;i++){
-//     ninja.toUpperCase(ninja[i])
-//     console.log(ninja)
-//     }
-// }
-// console.log(changeUp(ninja))
+//  let ninja = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
+//  function changeUp(){
+//      for(i=0;i<ninja.length;i++){
+//     ninja[i]=ninja[i].toUpperCase();
+//      }
+//      console.log(ninja)
+//  }
+//  console.log(changeUp())
 
 //
 
@@ -136,11 +138,11 @@ const thomsCloset = [
       "raybans"
     ]
   ];
- // removing the show from kristyns closet and giving it a variable name 
-//var kristynsShoe = kristynsCloset.splice(0,1);
+// // removing the show from kristyns closet and giving it a variable name 
+// var kristynsShoe = kristynsCloset.splice(0,1);
 // console.log(kristynsCloset);
 // console.log(kristynsShoe) ; 
-//placing the shoe in thoms closet
+// placing the shoe in thoms closet
 // thomsCloset[2].push(kristynsShoe);
 // console.log(thomsCloset[2]);
 
@@ -158,3 +160,24 @@ const thomsCloset = [
 //     }
 // }
 
+
+
+///Multiples of 3 and 5
+// if(i=0;i<10;i++){
+//     if(i %2==0){
+
+//     }
+// }
+
+// for(let i=0;i<1000;i++){
+// var multi=[]; 
+//     if(i %3==0 || i %5==0) {
+//     multi.push(i);
+//     console.log(multi);
+// multi.reduce(i)         
+// console.log(multi)
+
+// }
+ 
+// }
+ 
